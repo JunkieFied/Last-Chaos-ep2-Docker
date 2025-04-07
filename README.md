@@ -35,3 +35,8 @@ This Docker setup was heavily inspired by the work shared at:
 🔗 https://github.com/splt5k/Docker-LC
 
 Big thanks to the original author(s) for sharing such a great starting point.
+
+### Client
+the client can be aquired through this link, though I am pretty sure it should work to any EP2 client (if you can edit the ip).
+
+https://disk.yandex.ru/d/YJ7nN3sJ7bh4s
