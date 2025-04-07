@@ -1,0 +1,24 @@
+[Server]
+Number=1
+MaxSubServer=1
+IP=127.0.0.1
+Port=4006
+
+[User DB]
+IP=lc_mysql
+DBName=newproject_db_auth
+User=root
+Password=
+
+[Auth DB]
+IP=lc_mysql
+DBName=newproject_db_auth
+User=root
+Password=
+
+[Billing Server]
+IP=127.0.0.1
+Port=8888
+
+[SHA256]
+Salt=phoohie1yaihooyaequae7PuiWoeNgahjieth3ru3yeeghaepahb7aeYaipe2we6zii6mai6uweig8siasheinoungeoyeiLohShi2xoh2xi8ooxee9ahpiehahc9Phe
