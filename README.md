@@ -18,7 +18,7 @@ Players can log in, select a server, create characters, and enter the game world
 ### Prerequisites
 
 - **Docker Desktop** (Windows/Mac) or Docker Engine (Linux)
-- **Last Chaos EP2 client** with `CheckTool.exe` or `PonyChaos Editor.exe` for server configuration
+- **Last Chaos EP2 client** — [Download here](https://disk.360.yandex.ru/d/YJ7nN3sJ7bh4s) (includes `CheckTool.exe` for server configuration)
 - ~4GB RAM available for Docker
 
 ### Getting Started
