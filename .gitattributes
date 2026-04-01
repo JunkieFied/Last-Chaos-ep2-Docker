@@ -1,0 +1,9 @@
+# Force Unix line endings for shell scripts (required for Linux containers)
+*.sh text eol=lf
+server/**/run text eol=lf
+server/**/run2 text eol=lf
+server/**/start text eol=lf
+server/**/start2 text eol=lf
+server_run/**/*.py text eol=lf
+server_run/**/*.c text eol=lf
+*.sql text eol=lf

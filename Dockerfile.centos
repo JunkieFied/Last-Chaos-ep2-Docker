@@ -28,4 +28,6 @@ RUN ln -sf /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime && \
 
 WORKDIR /lastchaos
 
-RUN chmod -R +x .
+# Fix Windows CRLF line endings in shell scripts (breaks #!/bin/bash shebang)
+COPY ./server_run/fix_crlf.sh /usr/local/bin/fix_crlf.sh
+RUN chmod +x /usr/local/bin/fix_crlf.sh

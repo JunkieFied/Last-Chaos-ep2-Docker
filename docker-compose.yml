@@ -50,7 +50,7 @@ services:
       [
         "/bin/bash",
         "-c",
-        "chmod -R 777 /lastchaos && cd /lastchaos && python server_run/python/serverstart.py && tail -f /dev/null",
+        "chmod -R 777 /lastchaos && cd /lastchaos && /usr/local/bin/fix_crlf.sh && python server_run/python/serverstart.py && tail -f /dev/null",
       ]
 
 volumes:
