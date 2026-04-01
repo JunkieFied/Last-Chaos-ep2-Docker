@@ -1,0 +1,32 @@
+# MySQL raw data files (we use SQL dumps instead)
+server/db/mysql/
+
+# Runtime logs and temp files
+*.log
+nohup.out
+*~
+rebootlog
+.lottery
+
+# Intermediate dump files (keep only pristine_clean.sql and init-grants.sql)
+server/db/scripts/full_*.sql
+server/db/scripts/clean_*.sql
+server/db/scripts/game_*.sql
+server/db/scripts/pristine_dump.sql
+
+# OVA extract files
+ova_extract/
+
+# Python bytecode
+__pycache__/
+*.pyc
+
+# Crash dumps
+bt_*.log
+
+# Runtime state
+.dungeontime
+*.filepart
+
+# Claude settings
+.claude/
