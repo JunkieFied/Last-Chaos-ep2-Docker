@@ -11,6 +11,7 @@ services:
       - mysql_data:/var/lib/mysql
       - ./server/db/scripts/init-grants.sql:/docker-entrypoint-initdb.d/01-grants.sql:ro
       - ./server/db/scripts/pristine_clean.sql:/docker-entrypoint-initdb.d/02-dump.sql:ro
+      - ./server/db/scripts/03-create-users.sql:/docker-entrypoint-initdb.d/03-create-users.sql:ro
     ports:
       - "3306:3306"
     networks:
